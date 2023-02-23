@@ -1,0 +1,53 @@
+.class1,
+.class2,
+.class3 {
+  background-color: red;
+  width: 30%;
+  padding: 30px;
+  margin: 10px;
+}
+.class2 {
+  width: 32%;
+  height: 4%;
+}
+.class3 {
+  width: 34%;
+  height: 6%;
+}
+.class1-2,
+.class2-2,
+.class3-2 {
+  display: inline;
+  border: solid purple;
+  padding: 0 40 20 0;
+}
+
+.class1-2 {
+  border: dashed purple;
+}
+.class3-2 {
+  border: dotted purple;
+}
+.class1-3 > div {
+  width: 40px;
+  border: solid green;
+}
+.class1-3 {
+  width: 45;
+  padding: 10;
+  border: solid green;
+}
+.class2-3 {
+  height: 40px;
+  margin-top: 10px;
+  width: fit-content;
+  border-left: solid green;
+}
+.class3-3 {
+  margin-top: 10px;
+  width: 100px;
+  border: solid brown;
+}
+hr {
+  margin: 25px;
+}
