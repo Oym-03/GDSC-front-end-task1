@@ -1,0 +1,39 @@
+div {
+  width: fit-content;
+  margin: 80px auto;
+  font-size: larger;
+  font-weight: bold;
+  background-color: rgba(128, 128, 128, 0.2);
+  font-size: xx-large;
+}
+.button_1,
+.button_2 {
+  background-color: lime;
+  margin-right: 20%;
+  position: absolute;
+  font-size: x-large;
+}
+.button_2 {
+  right: 10%;
+}
+
+.button_1 {
+  left: 32%;
+}
+table {
+  background-color: cadetblue;
+  border: double rgb(0, 0, 0) 5px;
+  margin: -50px auto 100px;
+  text-align: center;
+  font-size: xx-large;
+}
+table:hover {
+  height: 150px;
+}
+.button_1:hover,
+.button_2:hover {
+  background-color: cadetblue;
+}
+tr {
+  border: solid;
+}
